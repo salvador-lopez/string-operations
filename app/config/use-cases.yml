@@ -1,0 +1,6 @@
+services:
+  string_operations.reverse_array_and_its_values_use_case:
+    class: StringOperations\UseCase\ReverseArrayAndItsValuesUseCase
+    arguments:
+      - '@string_operations.domain.reverse_strings_service'
+      - '@string_operations.use_case.reverse_array_and_its_values_data_transformer'

@@ -1,0 +1,3 @@
+services:
+  string_operations.domain.reverse_strings_service:
+    class: StringOperations\Domain\Service\ReverseStringsService

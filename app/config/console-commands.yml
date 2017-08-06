@@ -1,0 +1,5 @@
+services:
+  string_operations.infrastructure.presentation.reverse_and_implode_strings_command:
+      class: StringOperations\Infrastructure\Presentation\Console\ReverseAndImplodeStringsCommand
+      tags:
+          -  { name: console.command }

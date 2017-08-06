@@ -1,0 +1,3 @@
+services:
+  string_operations.use_case.reverse_array_and_its_values_data_transformer:
+    alias: string_operations.infrastructure.presentation.reverse_array_and_its_values_response_to_imploded_string
