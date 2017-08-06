@@ -19,12 +19,12 @@ class ReverseAndImplodeStringsCommand extends ContainerAwareCommand
     protected function configure()
     {
         $this
-            ->setName('revert-and-implode-strings')
+            ->setName('reverse-and-implode-strings')
             ->setDescription(
                 'Given five strings , it revert and return them imploded'
             )
             ->setHelp("Example of command execution: ".
-                "bin/console.php revert-and-implode-strings 'Lorem' 'isum' 'dolor' 'sit' 'amet'"
+                "bin/console.php reverse-and-implode-strings 'Lorem' 'isum' 'dolor' 'sit' 'amet'"
             )->addArgument(
                 self::STRING_ARGUMENT_1,
                 InputArgument::REQUIRED,
